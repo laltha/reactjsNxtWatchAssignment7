@@ -35,7 +35,7 @@ class VideoDetailView extends Component {
     viewCount: data.video_details.view_count,
     publishedAt: data.video_details.published_at,
     description: data.video_details.description,
-    name: data.video_details.channel_name,
+    name: data.video_details.channel.name,
     profileImageUrl: data.video_details.channel.profile_image_url,
     subscriberCount: data.video_details.channel.subscriber_count,
   })
